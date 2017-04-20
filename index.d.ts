@@ -356,7 +356,7 @@ declare namespace NodeJS {
                   | 'win32';
 
     export interface Socket extends ReadWriteStream {
-        isTTY?: true;
+        isTTY?: boolean;
     }
 
     export interface Process extends EventEmitter {
